@@ -38,8 +38,8 @@ const myFunction = function() {
 
 //  to find the data-type of a variable 
 
-console.log(typeof myFunction)
-console.log(typeof myObj)
+// console.log(typeof myFunction)
+// console.log(typeof myObj)
 
 
 
@@ -55,23 +55,28 @@ console.log(typeof myObj)
 // Heap :- jab bhi hum Heap ke andr koi value lete h ..too hume uska reference milta h 
 // Heap me agr hum koi value change krenge too vo original valuebhi save ho jaaegi 
 
+
+
+// stack example
 let myYoutubename = "himanshu"
 
 let anothername = myYoutubename
 anothername = "himanshu2"
 
-console.log(myYoutubename)
-console.log(anothername)
+// console.log(myYoutubename)
+// console.log(anothername)
 
 
+
+// Heap example
 let userOne = {
     email: "user@google.com",
     upi: "data@ybl"
 }
 
-let userTwo = userOne
 
+let userTwo = userOne
 userTwo.email = "himanshu@gmail.com"
 
-console.log(userOne.email)
-console.log(userTwo.email)
+// console.log(userOne.email)
+// console.log(userTwo.email)
